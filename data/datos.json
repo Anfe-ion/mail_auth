@@ -1,0 +1,70 @@
+{
+  "recipients": [
+    {
+      "name": "Andrés",
+      "codi_camp": "Campaña 9",
+      "por_pen": "75%",
+      "ticket": "150.75",
+      "email": "andres.moncada.c@gmail.com",
+      "tabla": [
+        {
+          "codigo_sap": "001",
+          "codigo": "C001",
+          "description": "Producto A",
+          "unidades_fac": 20,
+          "costo_total_fact": 2000,
+          "unidades_falt": 15
+        },
+        {
+          "codigo_sap": "002",
+          "codigo": "C002",
+          "description": "Producto B",
+          "unidades_fac": 10,
+          "costo_total_fact": 1000,
+          "unidades_falt": 25
+        }
+      ]
+    },
+    {
+      "name": "Felipe",
+      "codi_camp": "Campaña 200",
+      "por_pen": "60%",
+      "ticket": "125.50",
+      "email": "cuentanuevaparabing@outlook.com",
+      "tabla": [
+        {
+          "codigo_sap": "003",
+          "codigo": "C003",
+          "description": "Producto C",
+          "unidades_fac": 30,
+          "costo_total_fact": 3000,
+          "unidades_falt": 5
+        },
+        {
+          "codigo_sap": "004",
+          "codigo": "C004",
+          "description": "Producto D",
+          "unidades_fac": 15,
+          "costo_total_fact": 1500,
+          "unidades_falt": 10
+        },
+        {
+          "codigo_sap": "004",
+          "codigo": "C004",
+          "description": "Producto D",
+          "unidades_fac": 15,
+          "costo_total_fact": 1500,
+          "unidades_falt": 10
+        },
+        {
+          "codigo_sap": "004",
+          "codigo": "C004",
+          "description": "Producto D",
+          "unidades_fac": 15,
+          "costo_total_fact": 1500,
+          "unidades_falt": 10
+        }
+      ]
+    }
+  ]
+}

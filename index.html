@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <body 
+  style=
+  "font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;">
+    <div>
+      <p>Buen día.</p>
+      <br />
+      <p>
+        {name}, espero que te encuentres bien. Envío los datos de cierre de {codi_camp} para tu conocimiento.
+        Se han registrado las unidades facturadas, el costo total facturado y las unidades faltantes, con un porcentaje
+        de penetración de {por_pen} y un ticket promedio de ${ticket}.
+      </p>
+    </div>
+    <br />
+    <div>
+      <table
+      style=
+      "text-align: center;
+      border-collapse: collapse;
+      margin: 0 auto;">
+        <tr 
+        style=
+        "background-color: black;
+        color: #f9dd3e;
+        font-weight: bold;">
+          <th style= "border: 1px solid black;padding: 8px;">CÓDIGO SAP</th>
+          <th style= "border: 1px solid black;padding: 8px;">CÓDIGO</th>
+          <th style= "border: 1px solid black;padding: 8px;">DESCRIPCIÓN</th>
+          <th style= "border: 1px solid black;padding: 8px;">UNIDADES FACTURADAS</th>
+          <th style= "border: 1px solid black;padding: 8px;">COSTO TOTAL FACTURADO</th>
+          <th style= "border: 1px solid black;padding: 8px;">UNIDADES FALTANTES</th>
+        </tr>
+        {filas_tablas}
+      </table>
+    </div>
+    <br />
+    <p>Gracias y quedo atento a sus comentarios.</p>
+    <p style="font-weight: bold; font-size: 0.8em; font-style: italic; text-align: center;">
+      Este es un mensaje generado y enviado de manera automática. 
+      Si ha recibido este correo eléctronico por error o tiene alguna pregunta, 
+      por favor, póngase en contacto con el remitente.</p>
+  </body>
+</html>
