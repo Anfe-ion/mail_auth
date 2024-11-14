@@ -54,6 +54,7 @@ try:
             mail.Subject = f"Reporte de Cierre de {recipient['codi_camp']}"
             mail.HTMLBody = html_content
             mail.Send()
+            print(f"Correo enviado con éxito a {recipient['name']} ({recipient['email']}).")
             
             # Registrar el envío exitoso en el archivo de log
             logging.info(f"Correo enviado con éxito a {recipient['name']} ({recipient['email']}).")
